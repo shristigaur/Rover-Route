@@ -1,37 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Page</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="set.ico" type="images/x-ico" rel="icon">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Navigate Now</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Weather</h1>
+        <div class="lot" id="berrier">
+            <button class="app"><a href="https://weather.com/en-IN/?Goto=Redirected">Weather Channel</a></button>
+            <button class="app"><a href="https://www.accuweather.com/">Accu Weather</a> </button>
+            <button class="app"><a href="https://www.bbc.com/weather">BBC Weather</a></button>
+            <button class="app"><a href="https://www.google.com/search?q=weather&rlz=1C1CHBF_enIN1124IN1125&oq=weather&gs_lcrp=EgZjaHJvbWUqEQgAEEUYOxhGGIACGLEDGIAEMhEIABBFGDsYRhiAAhixAxiABDIKCAEQABixAxiABDINCAIQABixAxjJAxiABDINCAMQABiSAxiABBiKBTINCAQQABiSAxiABBiKBTIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDIxNzJqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Google Weather</a></button>
+            <button class="app"><a href="https://www.windy.com/?28.460,77.028,5">Windy</a></button>
 
-    <!-- Navigation Bar -->
-    <nav>
-        <div class="navlogo"><a href="#">LOGO</a></div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="navmenu" onclick="toggleMenu()">☰</div>
-    </nav>
-
-    <!-- Main Content -->
-    <section class="container">
-        <div class="barrier">
-            <button class="barrier-btn">NavigateNow</button>
-            <button class="barrier-btn">Mall Hopper</button>
-            <button class="barrier-btn">Weather</button>
-            <button class="barrier-btn">Munch Map</button>
-            <button class="barrier-btn">Ride-Hailing</button>
         </div>
-    </section>
-
-    <script src="script.js"></script>
-</body>
+            <button class="back" onclick="goBack()">Back</button>
+        <script src="index.js"></script>
+    </body>
 </html>
